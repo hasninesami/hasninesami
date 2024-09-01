@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Greatest Footballer of ALL Time</title>
+    <style>
+      .large-heading {
+        font-family: "Poppins", sans-serif; /* Custom font */
+        font-size: 3.5rem; /* Large font size */
+        font-weight: 700; /* Bold text */
+        text-align: center; /* Centered text */
+        margin-top: 50px; /* Space at the top */
+        padding: 20px; /* Padding around the text */
+        color: #fff;
+        background: linear-gradient(
+          90deg,
+          #ff7e5f,
+          #feb47b
+        ); /* Gradient background */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+      }
+      .video-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        color: rgb(195, 170, 170);
+        text-decoration: dashed;
+      }
+      .video-link:hover {
+        text-decoration: underline;
+        transition: 1s;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .gallery-item {
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        display: block;
+      }
+      .button-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .button {
+        display: block;
+        padding: 15px 20px;
+        margin: 10px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #0073e6;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: #005bb5;
+      }
+      .buttonnsubscribe {
+        background-color: #ff0000;
+      }
+      .button.subscribe:hover {
+        background-color: #cc0000;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000; /* Background color changed to black */
+        color: #fff; /* Text color changed to white for better contrast */
+      }
+      .achievements h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .achievements ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        text-align: left;
+        max-width: 800px;
+        margin: 0px auto;
+      }
+      .achievements li {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      .stats {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .stats h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .stats-table {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        text-align: left;
+      }
+
+      .stats-table th,
+      .stats-table td {
+        padding: 12px;
+        border: 1px solid #fff;
+      }
+
+      .stats-table th {
+        background-color: #333;
+        color: #ff7e5f;
+      }
+
+      .stats-table td {
+        background-color: #444;
+      }
+      .stats-image {
+        flex: 0 0 auto;
+        max-width: 300px;
+        text-align: center;
+      }
+      .stats-image img {
+        width: 200%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: #cebdbd;
+      }
+      .content-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 20px; /* Space between columns */
+      }
+
+      .main-content {
+        flex: 2; /* Takes up more space */
+      }
+
+      .quotes-section {
+        flex: 3; /* Takes up less space compared to the main content */
+        padding: 20px;
+        margin-block-start: 10px;
+        background-color: #222; /* Dark background to match theme */
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .quotes-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .quotes {
+        max-width: 100%;
+        margin: 10px auto;
+      }
+
+      .blockquote {
+        margin: 0px 0;
+        padding: 15px;
+        border-left: 4px solid #ff7e5f;
+        background-color: #333;
+        border-radius: 5px;
+        font-style: italic;
+        color: #fff;
+      }
+
+      .blockquote p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="large-heading">The History of Lionel Messi</h1>
+
+    <a
+      href="https://youtube.com/shorts/V90m6UUa10g?si=Zy3fvd9PMNMpdK4P"
+      class="video-link"
+      target="_blank"
+      >Watch the Video on our Youtube Channel</a
+    >
+    <div class="content-container">
+        <div class="main-content">
+    </div>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="messi.jpeg" alt="Messi in Argentina" />
+      </div>
+      <div class="gallery-item">
+        <img src="messi2.jpg" alt="The New Era" />
+      </div>
+      <div class="gallery-item">
+        <img src="messi3.jpg" alt="Goated Celebration" />
+      </div>
+      <div class="gallery-item">
+        <img src="messi4.jpg" alt="Surpassed ALL" />
+      </div>
+      <div class="button-container">
+        <a
+          href="https://youtube.com/@shortsbeingshorts?si=ZJazmxem0TpAq3fB"
+          class="button subscribe"
+          target="_blank"
+          >Subscribe</a
+        >
+        <a
+          href="https://youtube.com/@shortsbeingshorts?si=ZJazmxem0TpAq3fB"
+          class="button"
+          target="_blank"
+          >Join Our Channel</a
+        >
+      </div>
+      <div class="achievements">
+        <h2>Some of Messi's Greatest Achievements</h2>
+        <ul>
+          <li>8 Ballon d'Or awards (as of 2024)</li>
+          <li>4 Champions League titles with Barcelona</li>
+          <li>10 La Liga titles with Barcelona</li>
+          <li>World Cup champion with Argentina in 2022</li>
+          <li>Most goals scored in a calendar year (91 goals in 2012)</li>
+          <li>
+            Record for the most goals scored in a single La Liga season (50
+            goals)
+          </li>
+          <li>Golden Boot winner multiple times</li>
+        </ul>
+      </div>
+      <div class="stats">
+        <h2>Messi's Carrer Stats</h2>
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Catagory</th>
+              <th>stats</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total Goals</td>
+              <td>840+(as of 2024)</td>
+            </tr>
+            <tr>
+              <td>Total Assist</td>
+              <td>374(as of 2024)</td>
+            </tr>
+            <tr>
+              <td>Club Appearances</td>
+              <td>Barcelona(778)</td>
+            </tr>
+            <tr>
+              <td>Internation Appearances</td>
+              <td>180+9(Argentina)</td>
+            </tr>
+            <tr>
+              <td>Hat-tricks</td>
+              <td>55 (as of 2023)</td>
+            </tr>
+            <tr>
+              <td>Goals in La Liga</td>
+              <td>474 (all-time top scorer)</td>
+            </tr>
+            <tr>
+              <td>Champions League Goals</td>
+              <td>120+</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="stats-image">
+          <img src="messi5.webp" alt="goat" />
+        </div>
+        <div class="quotes-section">
+          <h2>Quotes About Messi</h2>
+          <div class="quotes">
+            <blockquote>
+              <p>
+                "He is the best player of all time, a genius." - Xavi Hernandez
+              </p>
+            </blockquote>
+            <blockquote>
+              <p>
+                "Lionel Messi is the best player I have ever seen, and that is
+                saying a lot." - Ronaldo Nazário
+              </p>
+            </blockquote>
+            <blockquote>
+              <p>
+                "Messi is the most extraordinary player I have ever seen in my
+                life. His talent is beyond comparison." - Pep Guardiola
+              </p>
+            </blockquote>
+            <blockquote>
+              <p>
+                "In terms of pure ability, Messi is the greatest player ever. He
+                makes the game look effortless." - Zinedine Zidane
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
